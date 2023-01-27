@@ -11,6 +11,7 @@ function Router() {
         <section>
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/Projet-7---kasa-app" element={<Home />} />
                 <Route path="/a-propos" element={<About />} />
                 <Route path="/*" element={<Error404 />} />
                 <Route path="/logement/:id" element={<House />} />
