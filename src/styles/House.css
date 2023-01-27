@@ -1,0 +1,354 @@
+* {
+    font-family: 'Montserrat';
+}
+
+.title-rating-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1240px;
+    justify-content: center;
+    margin: auto;
+}
+
+.description_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    max-width: 1240px;
+}
+
+.house-column-title {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: auto;
+
+}
+
+.house-rating-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+
+
+
+
+}
+
+
+.house-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;
+    color: #FF6060;
+}
+
+.house-location {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: flex-end;
+    color: #FF6060;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.house-host {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.host-name {
+    margin-left: 450px;
+    margin-right: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    color: #FF6060;
+}
+
+.host-pic {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.house-tags {
+    display: flex;
+    flex-direction: row;
+    margin-top: 23px;
+
+}
+
+.image-slider {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 415px;
+    overflow: visible;
+}
+
+.house-rating {
+    display: flex;
+    justify-content: right;
+    margin-top: 15px;
+}
+
+.house-description {
+    width: 582px;
+}
+
+.house-equipments {
+    margin-left: 45px;
+    width: 582px;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .title-rating-container {
+        display: flex;
+        flex-direction: column;
+        width: 97%;
+        margin: auto;
+    }
+
+    .house-title {
+        margin: 20px;
+        font-size: 18px;
+    }
+
+    .image-slider {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 90%;
+        height: 255px;
+        overflow: visible;
+    }
+
+    .house-column-title {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%
+    }
+
+    .house-title {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .house-location {
+        font-size: 14px;
+    }
+
+    .house-rating-column {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        margin-bottom: 30px;
+
+    }
+
+    .house-rating>.rating {
+        display: flex;
+        flex-direction: row;
+        width: 100px;
+    }
+
+    .description_container {
+        flex-direction: column;
+    }
+
+
+    .house-description,
+    .house-equipments {
+        margin: auto;
+        width: 90%;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .house-description>.collapse {
+        margin: 0;
+        width: 100%;
+
+    }
+
+    .house-equipments>.collapse {
+        margin: 0;
+        width: 100%;
+
+    }
+
+
+    .house-host {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+
+    }
+
+    .host-pic {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .host-name {
+        margin-left: 0px;
+        margin-right: 10px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 142.6%;
+        display: flex;
+        align-items: flex-end;
+        text-align: right;
+        color: #FF6060;
+        padding-left: 15px;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1025px) {
+
+    .title-rating-container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+
+    .image-slider {
+
+        margin: auto;
+        width: 90%;
+    }
+
+    .house-column-title {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .house-title {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        width: 90%;
+    }
+
+    .house-location {
+        font-size: 14px;
+    }
+
+
+    .house-rating-column {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+
+    .house-rating>.rating {
+        display: flex;
+        flex-direction: row;
+        width: 100px;
+    }
+
+    .description_container {
+        flex-direction: column;
+    }
+
+    .description-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: -15px;
+    }
+
+    .house-description,
+    .house-equipments {
+        margin: auto;
+        width: 90%;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .house-host {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+
+    }
+
+    .host-pic {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .host-name {
+        margin-left: 0px;
+        margin-right: 10px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 142.6%;
+        display: flex;
+        align-items: flex-end;
+        text-align: right;
+        color: #FF6060;
+        padding-left: 15px;
+    }
+
+}

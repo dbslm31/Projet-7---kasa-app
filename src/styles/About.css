@@ -1,0 +1,68 @@
+* {
+    font-family: 'Montserrat';
+}
+
+.home>.collapse {
+    width: 90%;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 600px) {
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-bottom: 50px;
+        max-width: 335px;
+
+    }
+
+    .home>.banner-container {
+        width: 335px;
+        height: 223px;
+    }
+
+    .home>.banner-container>.img-container {
+        background: url("../assets/mobile-banner.jpg");
+        border-radius: 10px;
+        width: 335px;
+        height: 223px;
+    }
+
+    .home>.banner-container>.img-container>.banner {
+        display: none;
+        width: 335px;
+        height: 223px;
+    }
+
+    .home>.collapse {
+        width: 335px;
+        margin-left: auto;
+    }
+
+
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1025px) {
+
+    .home>.banner-container {
+        margin-bottom: 30px;
+    }
+
+    .home>.collapse {
+        width: 90%;
+        margin-left: auto;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-bottom: 200px;
+
+
+    }
+
+}

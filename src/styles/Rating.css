@@ -1,0 +1,11 @@
+@media screen and (max-width: 480px) {
+    .star {
+        width: 15px
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1025px) {
+    .star {
+        width: 25px
+    }
+}

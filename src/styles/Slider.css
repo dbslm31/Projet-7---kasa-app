@@ -1,0 +1,118 @@
+.slider {
+    height: 415px;
+    width: 100%;
+    margin: auto;
+    max-width: 1240px;
+    overflow: hidden;
+    border-radius: 25px;
+    display: flex;
+    position: relative;
+}
+
+.slider-inner {
+    width: 80%;
+}
+
+
+.slider-picture {
+    height: 415px;
+    width: 1240px;
+    object-fit: cover;
+}
+
+.arrow-left {
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.arrow-right {
+    position: absolute;
+    top: 45%;
+    right: 2%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+
+    .slider {
+        height: 255px;
+        margin: auto;
+        max-width: 1240px;
+        overflow: hidden;
+        border-radius: 25px;
+        display: flex;
+        position: relative;
+    }
+
+    .slider-picture {
+        height: 255px;
+        width: 357px;
+        object-fit: cover;
+    }
+
+    .slider-inner {
+        height: 255px;
+        width: 357px;
+    }
+
+    .arrow-left {
+        position: absolute;
+        top: 45%;
+        left: 2%;
+        width: 15px;
+        transform: rotate(180deg);
+        cursor: pointer;
+    }
+
+    .arrow-right {
+        position: absolute;
+        top: 45%;
+        right: 2%;
+        width: 15px;
+        cursor: pointer;
+    }
+
+    .slider-picture {
+        height: 100%;
+        width: 600px;
+        object-fit: cover;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1025px) {
+    .slider {
+
+        margin: auto;
+        max-width: 100%;
+        height: 315px;
+
+    }
+
+    .arrow-left {
+        position: absolute;
+        top: 45%;
+        left: 2%;
+        width: 20px;
+        transform: rotate(180deg);
+        cursor: pointer;
+    }
+
+    .arrow-right {
+        position: absolute;
+        top: 45%;
+        right: 2%;
+        width: 20px;
+        cursor: pointer;
+    }
+
+    .slider-picture {
+        height: 100%;
+        width: 1024px;
+        object-fit: cover;
+    }
+
+}
